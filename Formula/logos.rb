@@ -1,25 +1,25 @@
 class Logos < Formula
   desc "Logos — structural code intelligence for AI-assisted development"
   homepage "https://github.com/raffaelecamanzo/logos"
-  version "1.14.0"
+  version "1.15.2"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/raffaelecamanzo/logos/releases/download/v1.14.0/logos-aarch64-apple-darwin.tar.xz"
-      sha256 "93c03bb0f3695fd75835bb9bcce54f9e7bc94461b9cbc5da1517e89603971ba1"
+      url "https://github.com/raffaelecamanzo/logos/releases/download/v1.15.2/logos-aarch64-apple-darwin.tar.xz"
+      sha256 "6bcb87acf7dd3a7e398e336bd5193690c8cd01cae89b62ebe98aa6cb07995288"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/raffaelecamanzo/logos/releases/download/v1.14.0/logos-x86_64-apple-darwin.tar.xz"
-      sha256 "837b22002f40a8dfc866a67db8c463041260ee13785eff890f95f82707d73a07"
+      url "https://github.com/raffaelecamanzo/logos/releases/download/v1.15.2/logos-x86_64-apple-darwin.tar.xz"
+      sha256 "577d2b677757cb919c9be9e95c42937601973d8985b746ac516aff39541d1195"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/raffaelecamanzo/logos/releases/download/v1.14.0/logos-aarch64-unknown-linux-musl.tar.xz"
-      sha256 "a6a4bcf98a2cac801a16de9ea796df4ba13c31bfdb2cfd521f90d37856ed46f3"
+      url "https://github.com/raffaelecamanzo/logos/releases/download/v1.15.2/logos-aarch64-unknown-linux-musl.tar.xz"
+      sha256 "b0e07dbf634a0db4b902d8928ed0bca1dc4fae355b543c143dbcd44fe7d55627"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/raffaelecamanzo/logos/releases/download/v1.14.0/logos-x86_64-unknown-linux-musl.tar.xz"
-      sha256 "1d112e115d943b5df028415818e5c2e9ad24a54b8c0348aa4349b16cc41b943d"
+      url "https://github.com/raffaelecamanzo/logos/releases/download/v1.15.2/logos-x86_64-unknown-linux-musl.tar.xz"
+      sha256 "9166e0dd61003dc7a2d881e586b094de1a7346dee0c30f5a019474654fd23ca9"
     end
   end
   license "Apache-2.0"
